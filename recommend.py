@@ -1,17 +1,14 @@
 from __future__ import print_function
 n = input() #get place count
-#places = [[0, 0, 0, 7, 10], [1, 0, 7, 0, 5], [2, 1, 10, 5, 0]] #test case for places
 places = []
 for i in range(n):
 	places.append(list(map(int, raw_input().strip().split()))) #parse and store place
 
 p = input() #get route count
-#routes = [[0, 1, 2], [2, 1, 0], [2, 1], [0, 2], [0, 2, 1]] #test case for routes already travelled
 routes = []
 for i in range(p):
 	routes.append(list(map(int, raw_input().strip().split()))) #parse and store route
-
-#cur_route = [1,2] # test case for current route
+	
 cur_route = map(int, raw_input().strip().split()) # get our current route
 cur_place = cur_route[len(cur_route) - 1] # get our current place on this route
 recommendations = []
