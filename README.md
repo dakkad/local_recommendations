@@ -6,7 +6,7 @@ Documentation
 How to use
 -------------
 
-Run "python run.py" from your terminal of choice.
+Run "python recommend.py" from your terminal of choice.
 
 Requirements
 -------------
